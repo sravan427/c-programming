@@ -1,0 +1,12 @@
+
+#include "a1.c"
+int main()
+{
+    int a,b,c;
+    float d;
+    printf("enter a,b values\n");
+    scanf("%d%d",&a,&b);
+    d=div(a,b);
+    c=squ(a);
+    printf("div=%f,squ=%d",c,d);
+}
