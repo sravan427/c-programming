@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
-    char ch='a';
-    printf("\nch=%c",ch);
-    printf("\nch=%d",ch);
+    char ch;
+    ch=getch();
+    printf("ch=%c",ch);
 }
+    
