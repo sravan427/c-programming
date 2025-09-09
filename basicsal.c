@@ -21,6 +21,6 @@ void main()
             it=0.01*bs;
         }
     netsal=hrs+da-pf-it;
-    printf("netsal=%f,hrs=%f,da=%f,pf=%f,it=%f",netsal,hrs,da,pf,it);
+    printf("netsal=%.2f,hrs=%.2f,da=%.2f,pf=%.2f,it=%.2f",netsal,hrs,da,pf,it);
 
 }
