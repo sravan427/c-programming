@@ -1,21 +1,49 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int n,i,a=0;
-    printf("Enter a number: ");
-    scanf("%d",&n);
-    for(i=2;i<=n-1;i++)
+    int month;
+    printf("enter the month number");
+    scanf("%d", &month);
+    switch(month)
     {
-        if(n%i==0)
-        {
-            a=1;
-            break;
-        }
+        case 1:
+        printf("january\n");
+        break;
+        case 2:
+        printf("febrauary\n");
+        break;
+        case 3:
+        printf("march\n");
+        break;
+        case 4:
+        printf("april\n");
+        break;
+        case 5:
+        printf("may\n");
+        break;
+        case 6:
+        printf("june\n");
+        break;
+        case 7:
+        printf("july\n");
+        break;
+        case 8:
+        printf("august\n");
+        break;
+        case 9:
+        printf("september\n");
+        break;
+        case 10:
+        printf("october\n");
+        break;
+        case 11:
+        printf("november\n");
+        break;
+        case 12:
+        printf("december\n");
+        break;
+    default:
+        printf("error");
     }
-    if(n==1)
-    printf("1 is neither prime nor composite");
-    else if(a==0)
-    printf("prime number\n");
-    else
-    printf("composite number\n");
+ return 0;
 }
