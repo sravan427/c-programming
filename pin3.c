@@ -4,18 +4,21 @@ int main()
     int pin,attempts=1;
     while(attempts<=3)
     {
-        printf("Enter PIN: \n");
+
+    
+    
+        printf("enter pin: ");
         scanf("%d",&pin);
         if(pin==1234)
         {
-            printf("Access Granted\n");
+            printf("corect pin\n");
             return 0;
         }
-            else 
-            {
-                printf("Incorrect pin\n");
-            }
-            attempts++;
+        else
+        {
+            printf("incorect pin\n");
+        }
+        attempts++;
     }
     printf("Access Blocked ! Too many incorrect attempts.\n");
     return 0;

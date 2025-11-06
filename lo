@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,n,m,p,q;
+    int m1[10][10],m2[10][10],m3[10][10];
+    printf("Enter order of n");
+    scanf("%d",&n);
+    printf("Enter order of m");
+    
+
+}
