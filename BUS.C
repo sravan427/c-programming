@@ -4,7 +4,7 @@ void read();
 void calculate();
 void print();
 int choice=0,ads=0,cld=0,wfareA=20/*this is for warangal fare adults*/,wfareC=10,wfareT=0,hfareA=30,hfareC=15,hfareT=0,kfareA=40,kfareC=20,kfareT=0;
-void main()
+int main()
 {
 	read();
 	print();
@@ -40,7 +40,6 @@ void read()
 }
 void print()
 {
-	clrscr();
 	printf("\n\t\t\t\t    TGSRTC\n\t\t\t\t Khammam Depot\n\t\t\t20884A05144   27/06/25   09:14");
 	printf("\n\t\t\t      Service Number  HNK9\n\t\t\t\t    DELUXE\n\t\t\t  KHAMMAM-HANAMKONDA  Trip No.1\n\t\t\t WARDHANNAPET BUS STATION TO \n\t\t\t     HANUMAKONDA BUS STATION");
 	printf("\n\t\t\t          ADT:%d  CLD:%d",ads,cld);
