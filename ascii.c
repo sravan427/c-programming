@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
     char ch;
-    ch=getch();
-    printf("ch=%c",ch);
+    printf("enter: ");
+    scanf("%c",&ch);
+    printf("ch=%d",ch);
 }
-    
