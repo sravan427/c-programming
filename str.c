@@ -172,4 +172,58 @@ int main()
     }
     return 0;
 }*/
+/*#include<stdio.h>
+int main()
+{
+    int n,i,j,m;
+    printf("enter n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        m=1;
+        for(j=1;j<=i;j=j+1)
+        {
+            printf("%d ",m);
+            m+=2;
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*/
+/*#include<stdio.h>
+int main()
+{
+    int n,i,j,m;
+    printf("enter n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        m=1;
+        for(j=1;j<=i;j=j+1)
+        {
+            printf("%d ",m);
+            m+=2;
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int n,i,j,m=0;
+    printf("enter n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=0;j<i;j=j+1)
+        {
+            printf("%c ",65+j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
 
