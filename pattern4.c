@@ -44,3 +44,23 @@ int main()
         printf("\n");
     }
 }*/
+#include<stdio.h>
+int main()
+{
+    int n,i,j;
+    printf("enter n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        int m=1;
+        for(j=0;j<i;j=j+1,m++)
+        {
+            if(i%2==0)
+            printf("%c ",65+j);
+            else
+            printf("%d ",m);
+        }
+        printf("\n");
+    }
+    return 0;
+}
