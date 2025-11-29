@@ -44,7 +44,7 @@ int main()
         printf("\n");
     }
 }*/
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int n,i,j;
@@ -63,4 +63,81 @@ int main()
         printf("\n");
     }
     return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int n,d;
+    printf("Enter any odd value:");
+    scanf("%d",&n);
+    d=(n/2)+1;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if(j==d||i==d) {printf("*");}
+            else {printf(" ");}
+        }
+        printf("\n");
+    }
+    return 0;
+}
+#include<stdio.h>
+int main()
+{
+    int n,d;
+    printf("Enter any odd value:");
+    scanf("%d",&n);
+    d=(n/2)+1;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            if(j==d&&i==d) {printf("*");}
+            else {printf("#");}
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int n,m;
+    printf("Enter any odd value:");
+    scanf("%d %d",&n,&m);
+    for(int i=1;i<=n;i++)
+    {printf("*");}
+    for(int i=1;i<=m-2;i++)
+    {
+        printf("\n*");
+        for(int j=1;j<=n;j++)
+        {
+            if(j==n-1)
+            {printf("*");}
+            else 
+            {printf(" ");}
+        }
+        
+    }
+    printf("\n");
+    for(int i=1;i<=n;i++)
+    {printf("*");}
+    return 0;
+}*/
+#include<stdio.h>
+int main(){
+    int n,m=1;
+    printf("Enter any odd number:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++)
+        {
+        if((i==m&&j==m)||(j==(n-m)+1))printf("*");//if(i==j||i+j==n)
+        else printf(" ");
+    }
+    printf("\n");
+    m++;
+    }
+
 }
