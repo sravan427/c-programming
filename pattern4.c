@@ -125,7 +125,7 @@ int main()
     {printf("*");}
     return 0;
 }*/
-#include<stdio.h>
+/*#include<stdio.h>
 int main(){
     int n,m=1;
     printf("Enter any odd number:");
@@ -140,4 +140,57 @@ int main(){
     m++;
     }
 
-}
+}*/
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter :");
+    scanf("%d",&n);
+    int a=1;
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d ",a);
+            a+=2;
+        }
+        printf("\n");
+    }
+}*/
+/*#include<stdio.h>
+int main(){
+    int n;
+    printf("enter :");
+    scanf("%d",&n);
+    int a;
+    for(int i=1;i<=n;i++)
+    {
+        if(i%2!=0) a=1;
+        else a=0;
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d ",a);
+            if(a==0) a=1;
+            else a=0;
+        }
+        printf("\n");
+    }
+} // both are same programmes
+    #include<stdio.h>
+int main(){
+    int n;
+    printf("enter :");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+           if((i+j)%2==0) printf("1 ");
+           else printf("0 ");
+        }
+        printf("\n");
+    }
+}*/
+
+
+
