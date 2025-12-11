@@ -24,8 +24,7 @@ for(int i=0;i<840;i++)
                 printf("Already entered. Try again.\n\n");
                 goto enter_no;
             }
-        }
-    rewind(fp);
+        }    rewind(fp);
     int k=0;
     while (fgets(line, sizeof(line), fp)) 
     {
