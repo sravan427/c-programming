@@ -13,7 +13,7 @@ setcolor(BLUE);
 line(350,400,350,500); 
 rectangle(300,400,400,100);  
 setfillstyle(SOLID_FILL,GREEN);  
-circle(350,320,40);  
+circle(350,320,40); 
 floodfill(350,320,BLUE);  
 setfillstyle(SOLID_FILL,YELLOW);  
 circle(350,210,40);  

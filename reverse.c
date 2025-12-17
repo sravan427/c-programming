@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<string.h>
-#include<process.h>
+#include"stdio.h"
+#include"string.h"
+#include"process.h"
 struct student
 {
 	char name[25];
@@ -12,7 +12,7 @@ void main()
 {
 	struct student s;
 	FILE *fp;
-	fp=fopen("stud1.dbf","rb");
+	fp=fopen("stud1.dbf","a");
 	if(fp==NULL)
 	{
 		printf("\n ERROR:Unable to open the file");

@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    int a,le=0,sum=0,re;
+    int a,le=0,sum=0,re;//#include<stdbool.h> bool flag=true; bool is a data type
     printf("enter :");
     scanf("%d",&a);
     int m=a;
