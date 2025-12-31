@@ -1,34 +1,15 @@
+
+//     *p=*p+a;
+//     printf("%d",a);
+//     char s[]="sravan rasa";
+//     char*pt=s;
+//     printf("\n%s",pt);
+//     return 0;
+// }
 #include<stdio.h>
-int main(){
-    int n,m;
-    printf("enter n value: ");
-    scanf("%d",&n);
-    printf("enter m value: ");
-    scanf("%d",&m);
-    int a[n][m];
-    printf("enter :\n");
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            scanf("%d",&a[i][j]);
-        }
-    }
-    for(int i=0;i<n;i++)
-    {   
-        for(int j=0,k=m-1;j<m/2;j++,k--)
-        {
-            if((i+1)%2==0)
-            {
-                int temp=a[i][j];
-                a[i][j]=a[i][k];
-                a[i][k]=temp;
-            }
-        }
-    }
-    printf("\n");
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            printf("%2d ",a[i][j]);
-        }
-        printf("\n");
-    }
-}
+#include<string.h>
+int main()
+{
+   char a[]="sravan rasa";
+    char *ptr =a;
+   printf("%s",ptr);
