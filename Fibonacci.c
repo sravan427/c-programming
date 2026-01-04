@@ -15,3 +15,21 @@ int main()
     }
     return 0;
 }
+/*
+#include<stdio.h>
+int main(){
+int t1=0,t2=1,t3,n,i;
+printf("Enter number of terms: ");
+scanf("%d",&n);
+for(i=0;i<n;i++){
+printf("%d\t",fibo(i));
+}
+int fibo(int n)
+{
+if(n==0||n==1)
+return n;
+else
+return (fibo(n-1)+fibo(n-2));
+}
+}
+*/
